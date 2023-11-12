@@ -1,224 +1,173 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Halaman Profil Bandung</title>
-    <link rel="stylesheet" href="assets/styles/style2.css">
-</head>
 
-<body>
-<header>
-<h1>Bandung</h1>
-<p><i>Kota metropolitan</i> terbesar di <dfn>Provinsi Jawa Barat</dfn>, sekaligus menjadi <em>ibu kota provinsi</em> tersebut.</p>
- 
-<nav>
-<ul>
-    <li><a href="#Sejarah">Sejarah</a></li>
-    <li><a href="#Geografis">Geografis</a></li>
-    <li><a href="#Wisata">Wisata</a></li>
-</ul>
-</nav>
-</header>
+    <!-- My Own Styles -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
 
-<h2 id="Sejarah" class="red">Sejarah</h2>
-<img src="assets/image/history.jpg" alt="Sejarah" />
-<p>Kata <a href="https://id.wikipedia.org/wiki/Kota_Bandung">Bandung</a> berasal dari kata <strong>bendung</strong> atau karena <i>terbendungnya</i> sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama di Dayeuhkolot.</p>
- 
- 
-<p>Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu yang berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu Pertiwi tempat Banda berada.</p>
- 
- 
-<h2 id="Geografis">Geografis</h2>
-<img src="assets/image/geografis.jpg" alt="Geografis" />
-<p>Kota <b>Bandung</b> dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah <b>mangkok</b> raksasa, secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada ketinggian ±768 m di atas permukaan laut, dengan titik tertinggi di berada di sebelah utara dengan ketinggian 1.050 meter di atas permukaan laut dan sebelah selatan merupakan kawasan rendah dengan ketinggian 675 meter di atas permukaan laut.</p>
- 
-<p>Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu di Sungai Citarum. Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap masalah banjir terutama pada musim hujan.</p>
- 
- 
-<h2 id="Wisata">Wisata</h2>
-<p class="center">Sejak dibukanya Jalan Tol Cipularang, <q>kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya</q>. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan sejumlah besar bangunan lama berarsitektur peninggalan Belanda.</p>
- 
- 
-<h3>Farm House Lembang</h3>
-<img src="assets/image/farm-house.jpg" alt="Farm House Lembang" />
-<p>Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto Instagramable.</p>
- 
- 
-<h3>Observatorium Bosscha</h3>
-<img src="assets/image/bosscha.jpg" alt="Observatorium Bosscha" />
-<p>Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap kubah sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha boleh dikunjungi oleh siapa pun, tanpa tiket. Namun, bagi yang ingin menggunakan teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan, diberikan jadwal hari Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.</p>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<h2>Kota Bandung</h2>
-<p>Kota Kembang Paris Van Java</p>
-<figure>
-    <img src="assets/image/bandung-badge.jpg">
-    <figcaption>Lambang</figcaption>
-</figure>
-<footer>
-<p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
-</footer>
-Untuk lebih jelas nya lagi, berikut merupakan referensi mengenai Kota Bandung di <cite><a href="https://www.bandung.go.id/sejarah">Profil Kota Bandung</a></cite>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Bandung</h1>
+        <p>
+          Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi
+          tersebut.
+        </p>
+      </div>
 
-<ul>
-    <li><a href="https://www.bandung.go.id/sejarah" target="_blank">Sejarah</a></li>
-    <li><a href="https://www.bandung.go.id/sejarah" target="_blank">Geografis</a></li>
-    <li><a href="https://www.bandung.go.id/sejarah" target="_blank">Wisata</a></li>
-    <li><a href="https://drive.google.com/file/d/1gVNl4cx_HMWt-Iwxb7fNXB9HBzKNUfkX/view?usp=sharing" target="_blank">File Download Tentang Geografis Bandung</a></li>
-</ul>
+      <nav>
+        <ul>
+          <li>
+            <a href="#sejarah">Sejarah</a>
+          </li>
+          <li>
+            <a href="#geografis">Geografis</a>
+          </li>
+          <li>
+            <a href="#wisata">Wisata</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<blockquote cite="https://id.wikipedia.org/wiki/Kota_Bandung">
-        Bandung adalah ibu kota yang sekaligus menjadi pusat pemerintahan dan perekonomian dari provinsi Jawa Barat, Indonesia. Kota Bandung juga merupakan kota terbesar keempat di Indonesia setelah Jakarta, Surabaya, dan Medan. Bandung menjadi kota terpadat kedua di Indonesia setelah Jakarta dengan kepadatan mencapai 15.051 jiwa/km2.
-</blockquote>
-<figcaption>Bandung Jawa Barat</figcaption>
-<pre>
-    Bandung adalah <mark>kota yang sekaligus menjadi pusat pemerintahan dan perekonomian</mark> dari provinsi Jawa Barat, Indonesia. Kota Bandung juga merupakan kota terbesar keempat di Indonesia setelah Jakarta, Surabaya, dan Medan.
-    Bandung menjadi kota terpadat kedua di Indonesia setelah Jakarta dengan kepadatan mencapai 15.051 jiwa/km2.
+    <main>
+      <!-- Konten artikel -->
+      <div id="content">
+        <article id="sejarah" class="card">
+          <h2>Sejarah</h2>
+          <img src="assets/image/history.jpg" alt="sejarah" class="featured-image" />
+          <p>
+            Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai
+            Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang
+            diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari
+            sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut
+            perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk
+            melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan
+            ibu kota yang lama di Dayeuhkolot.
+          </p>
 
-                    sumber : https://id.wikipedia.org/wiki/Kota_Bandung
-</pre>
-<p>
-    H<sub>2</sub>O<br>
-    E=MC<sup>2</sup>
-</p>
-<figure>
-    Bandung adalah ibu kota yang sekaligus menjadi pusat pemerintahan dan perekonomian dari provinsi Jawa Barat, Indonesia. Kota Bandung juga merupakan kota terbesar keempat di Indonesia setelah Jakarta, Surabaya, dan Medan.
-    Bandung menjadi kota terpadat kedua di Indonesia setelah Jakarta dengan kepadatan mencapai 15.051 jiwa/km2.
-    <figcaption>Kota Bandung Jawa Barat</figcaption>
-</figure>
+          <p>
+            Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda
+            Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda.
+            Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu yang
+            berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda mati.
+            Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu
+            Pertiwi tempat Banda berada.
+          </p>
+        </article>
 
-<table border="1">
-    <tr>
-        <th>18:00</th>
-        <th>19:00</th>
-        <th>20:00</th>
-        <th>21:00</th>
-    </tr>
-    <tr>
-        <td colspan="3">Avenger Infinity war</td>
-        <td>Puan the movie</td>
-    </tr>
-    <tr>
-        <td>Konosuba</td>
-        <td>Kimi no Nawa</td>
-        <td>Gundala</td>
-        <td>Joko Tingkir the movie</td>
-    </tr>
-    <tr>
-        <td>Konosuba</td>
-        <td colspan="2">Tenki no ko</td>
-        <td>PDI the movie</td>
-    </tr>
-</table>
-<br>
-<table border="1">
-    <tr>
-        <th>Tahun</th>
-        <th>Juara 1</th>
-        <th>Juara 2</th>
-        <th>Juara 3</th>
-    </tr>
-    <tr>
-        <td>>2018</td>
-        <td>Prancis</td>
-        <td>Kroasia</td>
-        <td>Belgium</td>
-    </tr>
-    <tr>
-        <td>2014</td>
-        <td>Jerman</td>
-        <td>Argentina</td>
-        <td>Belanda</td>
-    </tr>
-    <tr>
-        <td>2010</td>
-        <td>Spanyol</td>
-        <td>Belanda</td>
-        <td>Jerman</td>
-    </tr>
-</table>
-<br>
-<table border="1">
-    <tr>
-        <th rowspan="3">18:00</th>
-        <td>Konosuba</td>
-    </tr>
-    <tr>
-        <td>Kimi no Nawa</td>
-    </tr>
-    <tr>
-        <td>PDI the movie</td>
-    </tr>
-    
-<div>
-    <label for="teks">Teks</label>
-    <br>
-    <input type="text" placeholder="Nama" required />
-    <input type="submit" />
-</div>
+        <article id="geografis" class="card">
+          <h2>Geografis</h2>
+          <img src="assets/image/geografis.jpg" alt="geografis" class="featured-image" />
+          <p>
+            Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan
+            sebuah mangkok raksasa,[9] secara geografis kota ini terletak di tengah-tengah provinsi
+            Jawa Barat, serta berada pada ketinggian ±768 m di atas permukaan laut, dengan titik
+            tertinggi di berada di sebelah utara dengan ketinggian 1.050 meter di atas permukaan
+            laut dan sebelah selatan merupakan kawasan rendah dengan ketinggian 675 meter di atas
+            permukaan laut.
+          </p>
 
-<div>
-    <label for="number">Number</label>
-    <br>
-    <input type="number" placeholder="08***" required />
-</div>
+          <p>
+            Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum
+            beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu di
+            Sungai Citarum. Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap
+            masalah banjir terutama pada musim hujan.
+          </p>
+        </article>
 
-<div>
-    <label for="email">Email</label>
-    <br>
-    <input type="email" placeholder="emailkamu@gmail.com" required />
-</div>
+        <article id="wisata" class="card">
+          <h2>Wisata</h2>
+          <p>
+            Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam
+            menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta
+            sekitarnya. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan
+            sejumlah besar bangunan lama berarsitektur peninggalan Belanda.
+          </p>
 
-<div>
-    <label for="password">Password</label>
-    <br>
-    <input type="password" placeholder="Password" required />
-</div>
+          <section>
+            <h3>Farm House Lembang</h3>
+            <img src="assets/image/farm-house.jpg" alt="farm house" class="featured-image" />
+            <p>
+              Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak
+              pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga
+              menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto
+              Instagramable.
+            </p>
+          </section>
 
-<div>
-    checkbox
-    <input type="checkbox" />
-</div>
+          <section>
+            <h3>Observatorium Bosscha</h3>
+            <img src="assets/image/bosscha.jpg" alt="bosscha" class="featured-image" />
+            <p>
+              Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti,
+              Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah
+              jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap kubah
+              sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha
+              boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi yang ingin menggunakan
+              teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan,
+              diberikan jadwal hari Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka
+              setiap hari Sabtu.
+            </p>
+          </section>
+        </article>
+      </div>
 
-<div>
-    radio
-    <input type="radio" />
-</div>
+      <!-- Konten samping -->
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Kota Bandung</h2>
+            <p>Kota Kembang Paris van Java</p>
+            <figure>
+              <img src="assets/image/bandung-badge.png" />
+              <figcaption>Lambang</figcaption>
+            </figure>
+          </header>
 
-<div>
-    File
-    <input type="file" />
-</div>
+          <section>
+            <h3>Informasi Lainnya</h3>
 
-<div>
-    Teks
-    <textarea rows="6" cols="16"></textarea>
-    <input type="submit" />
-</div>
+            <table>
+              <tr>
+                <th>Negara</th>
+                <td>Indonesia</td>
+              </tr>
+              <tr>
+                <th>Hari jadi</th>
+                <td>25 September 1810</td>
+              </tr>
+              <tr>
+                <th>Luas Total</th>
+                <td>167.67 km<sup>2</sup></td>
+              </tr>
+              <tr>
+                <th>Bahasa Daerah</th>
+                <td>Sunda</td>
+              </tr>
+              <tr>
+                <th>Kode Telepon</th>
+                <td>+62 22</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
 
-<div>
-    hidden
-    <input type="hidden" />
-</div>
-</table>
-
-<br>
-
-<form action="">
-    <div>
-        <label for="email">Email</label>
-        <br />
-        <input type="email" id="email" />
-    </div>
-
-    <div>
-        <label for="password">Password</label>
-        <br />
-        <input type="password" id="password" />
-    </div>
-
-    <button type="submit">Submit</button>
-</form>
-
-</body>
-
+    <footer>
+      <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
+    </footer>
+  </body>
 </html>
